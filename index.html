@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <button class="first-btn btn-open" data-first-modal-open>
+            First Modal
+        </button>
+        <button class="second-btn btn-open" data-second-modal-open>
+            Second Modal
+        </button>
+        <button class="third-btn btn-open" data-third-modal-open>
+            Third Modal
+        </button>
+    </div>
+    <div class="backdrop is-hidden" data-first-modal>
+        <div class="modal-one modal">
+            <button class="btn-close" data-first-modal-close>х</button>
+
+        </div>
+    </div>
+    <div class="backdrop is-hidden" data-second-modal>
+        <div class="modal-two modal">
+            <button class="btn-close" data-second-modal-close>х</button>
+
+        </div>
+    </div>
+    <div class="backdrop is-hidden" data-third-modal>
+        <div class="modal-three modal">
+            <button class="btn-close" data-third-modal-close>х</button>
+
+        </div>
+    </div>
+    <script src="./js/modal.js"></script>
+</body>
+
+</html>
